@@ -1,5 +1,9 @@
-import add from './Add'
-
 console.log('Running...')
 
-console.log('Add:', add(2,2))
+import containsDuplicate from '@/Array/ContainsDuplicate'
+
+let nums = [];
+
+let res = containsDuplicate(nums);
+
+console.log(res)
