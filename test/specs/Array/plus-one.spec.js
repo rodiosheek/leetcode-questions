@@ -1,6 +1,6 @@
 import {plusOne, plusOneTypeTwo} from '@/Array/plus-one';
 
-describe.only('Plus one', () => {
+describe('Plus one', () => {
     it('[0] should return [1]', () => {
         const arr = [0];
 
@@ -32,7 +32,7 @@ describe.only('Plus one', () => {
     });
 });
 
-describe.only('Plus one type two', () => {
+describe('Plus one type two', () => {
     it('[0] should return [1]', () => {
         const arr = [0];
 

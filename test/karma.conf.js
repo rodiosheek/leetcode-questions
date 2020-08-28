@@ -16,9 +16,9 @@ module.exports = function (config) {
         frameworks: [
             'chai', 'mocha'
         ],
-        files: ['./index.js'],
+        files: ['./specs/**/*.spec.js'],
         preprocessors: {
-            './index.js': ['webpack', 'sourcemap']
+            './specs/**/*.spec.js': ['webpack', 'sourcemap']
         },
         plugins: [
             'karma-mocha',

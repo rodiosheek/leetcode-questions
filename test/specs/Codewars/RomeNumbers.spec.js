@@ -1,6 +1,6 @@
 import {encodeNumbersToRoman} from '@/Codewars/EncodeNumbersToRoman';
 
-describe.only('Transform decimal numbers to rome', () => {
+describe('Transform decimal numbers to rome', () => {
     it('10 => X', () => {
         const tmp = encodeNumbersToRoman(10);
 
